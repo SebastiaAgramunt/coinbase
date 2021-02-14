@@ -6,7 +6,7 @@ import coinbase.wallet
 README = open(os.path.join(os.path.dirname(__file__), 'PYPIREADME.rst')).read()
 REQUIREMENTS = [
     line.strip() for line in open(os.path.join(os.path.dirname(__file__),
-                                               'requirements.txt')).readlines()]
+                                               './pip-dep/requirements.txt')).readlines()]
 
 setup(
     name='coinbase',
