@@ -29,6 +29,6 @@ jobs:
         pip install -r ./pip-dep/requirements.txt
         pip install -r ./pip-dep/requirements.test.txt
         pip install -e .
-    - name: Test with pytest
+    - name: Test with nose
       run: |
         nosetests -v tests
